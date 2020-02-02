@@ -1,11 +1,16 @@
-//The following code can be debuged by Microsoft Visual Studio 2017 with default settings.
-//This is a very simple convolution neural network specially designed for image recongnition.
-//For my lacking knowledge in derivation for multi-valuable function, there is only one back propagation in this alglorithm.
-//In the beginning of the project, I write down the function softmax, which is used for back propagation.
-//I have no kowledge back then, but I know if I do not construct it, I will never ever try to do back propagation.
-//There is a mistake in the program: I set input[3] for RBG channels, but after the fisrt convolution, they are set to one dimension. The reason why I write the program in this way is due to the overflow of the memory.
-//I PROMISE THIS PROGRAM IS GONG TO BE FUN!
-//copyright: Yanchong Zheng
+/**
+* The following code can be debuged by Microsoft Visual Studio 2017 with default settings.
+* This is a very simple convolution neural network specially designed for image recongnition.
+* For my lacking knowledge in derivation for multi-valuable function, there is only one back propagation in this alglorithm.
+* In the beginning of the project, I write down the function softmax, which is used for back propagation.
+* I have no kowledge back then, but I know if I do not construct it, I will never ever try to do back propagation.
+* There is a mistake in the program: I set input[3] for RBG channels, but after the fisrt convolution, they are set to one dimension. The reason why I write the program in this way is due to the overflow of the memory.
+* I PROMISE THIS PROGRAM IS GONG TO BE FUN!
+*
+* Copyright (c) Yanchong Zheng
+*
+**/
+
 #include "pch.h"
 #include <iostream>
 #include <cmath>
